@@ -1,0 +1,300 @@
+.head {
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: cursive;
+}
+
+p {
+    font-family: "Kaushan", "Script";
+}
+
+
+/* #logo {
+display: block;
+float: right;
+padding-left: 50%;
+background-color: grey;
+place-content: center;
+} */
+
+#first {
+    clear: both;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 200%;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    background-size: cover;
+}
+
+.mgn {
+    padding-top: 10%;
+    padding: 10%;
+}
+
+
+/* .perform {
+  text-align: center;
+  padding-top: 5%;
+}
+/*      */
+
+
+/* .item_card img {
+  display: inline-block;
+} */
+
+.row {
+    padding-top: 3%;
+}
+
+*/
+/* .brand-description {
+  padding-top: 20px;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.brand-description h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+} */
+
+
+/* .brand-description .service_ribbon {
+  width: 100%;
+}
+
+.brand-description .service_ribbon .item_card {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding-top: 10px;
+} */
+
+
+/* .brand-description .service_ribbon img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: auto;
+} */
+
+
+/* .portfolio-description {
+  padding-top: 20px;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.portfolio-description h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.portfolio-description .service_ribbon {
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio-description .service_ribbon .item_card {
+  width: 220px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.portfolio-description .service_ribbon .item_card img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+} */
+
+.contact {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    text-align: center;
+    margin-top: 5%;
+    background-size: cover;
+    color: black;
+    padding: 6%;
+}
+
+.contact_form {
+    width: 100%;
+    height: 500px;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact_form>h3 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact_form>form {
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact_form>form>input {
+    flex: 1 40%;
+    background-color: white;
+    margin: 10px;
+    height: 40px;
+    color: black;
+}
+
+.contact_form>form>textarea {
+    flex: 1 100%;
+    background-color: white;
+    margin: 10px;
+    color: black;
+}
+
+.contact_form button {
+    color: white;
+    border: 1px solid grey;
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.contact_form button:hover {
+    background-color: black;
+}
+
+.form-inline {
+    padding-left: 30%;
+}
+
+.write {
+    padding-top: 50%;
+    color: black;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+#row {
+    text-align: center;
+}
+
+.delani {
+    text-align: center;
+}
+
+.p1,
+.p2,
+.p3 {
+    display: none;
+}
+
+#display {
+    border: 2px grey;
+    display: none;
+}
+
+.line {
+    background-color: rgba(250, 250, 250, 0.6);
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    margin-top: -84%;
+    opacity: 0;
+    text-align: center;
+}
+
+.line {
+    margin-top: -90%;
+}
+
+#hoVer {
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#hoVer:hover img {
+    transform: scale(1.2);
+    transition: all 0.8s ease;
+}
+
+overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#beats {
+    animation: heartbeat 3s infinite;
+    padding: 6%;
+}
+
+@keyframes heartbeat {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
+}
+
+.img {
+    margin-top: 20%;
+}
+
+.card-body {
+    padding: 3px;
+    margin: 3px;
+}
+
+.text {
+    padding: 30px;
+}
