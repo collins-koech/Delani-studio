@@ -55,14 +55,14 @@ place-content: center;
 
 
 /* .perform {
-  text-align: center;
-  padding-top: 5%;
+    text-align: center;
+    padding-top: 5%;
 }
 /*      */
 
 
 /* .item_card img {
-  display: inline-block;
+    display: inline-block;
 } */
 
 .row {
@@ -71,74 +71,74 @@ place-content: center;
 
 */
 /* .brand-description {
-  padding-top: 20px;
-  width: 100%;
-  background-color: white;
-  padding-bottom: 30px;
+    padding-top: 20px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px;
 }
 
 .brand-description h3 {
-  color: white;
-  text-align: center;
-  padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
 } */
 
 
 /* .brand-description .service_ribbon {
-  width: 100%;
+    width: 100%;
 }
 
 .brand-description .service_ribbon .item_card {
-  width: 300px;
-  height: 200px;
-  background-color: white;
-  margin-bottom: 20px;
-  padding-top: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-top: 10px;
 } */
 
 
 /* .brand-description .service_ribbon img {
-  width: 80px;
-  height: 80px;
-  display: inline-block;
-  margin: auto;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: auto;
 } */
 
 
 /* .portfolio-description {
-  padding-top: 20px;
-  width: 100%;
-  background-color: white;
-  padding-bottom: 30px;
+    padding-top: 20px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px;
 }
 
 .portfolio-description h3 {
-  text-align: center;
-  padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .portfolio-description .service_ribbon {
-  width: 85%;
-  margin: auto;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .portfolio-description .service_ribbon .item_card {
-  width: 220px;
-  height: 200px;
-  background-color: white;
-  margin-bottom: 20px;
-  padding-top: 10px;
+    width: 220px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .portfolio-description .service_ribbon .item_card img {
-  object-fit: cover;
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: auto;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
 } */
 
 .contact {
